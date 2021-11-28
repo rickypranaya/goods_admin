@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "goods_pharmacy",
-    "slug": "goods_pharmacy",
-    "version": "1.0.0",
+    "userInterfaceStyle": "automatic",
+    "name": "Goods Admin",
+    "slug": "goods_pharmacy_admin",
+    "version": "1.2.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -17,13 +18,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "userInterfaceStyle": "automatic",
+      "bundleIdentifier": "com.rickypranaya.goodspharmacy",
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "softwareKeyboardLayoutMode":"pan",
+      "userInterfaceStyle": "automatic",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.rickypranaya.goodspharmacy",
+      "versionCode": 2
     },
     "web": {
       "favicon": "./assets/favicon.png"
